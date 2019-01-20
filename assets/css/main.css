@@ -1872,6 +1872,7 @@ input, select, textarea {
 
 				.box.style1.right .image img {
 					right: 0;
+					width: 100%;
 				}
 
 			.box.style1.right .inner {
@@ -1885,6 +1886,7 @@ input, select, textarea {
 
 				.box.style1.left .image img {
 					left: 0;
+					width: 100%;
 				}
 
 			.box.style1.left .inner {
@@ -2629,3 +2631,9 @@ input, select, textarea {
 			}
 
 	}
+
+
+#rad {
+	height: 200px;
+	border-radius: 30px;
+}
