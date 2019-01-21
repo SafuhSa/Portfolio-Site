@@ -2645,3 +2645,19 @@ input, select, textarea {
 		padding: 5px;
     border-radius: 10px;
 }
+.personal-img {
+	/* clip: rect(15px, 180px, 180px, 0); */
+	border-radius: 10px;
+	width: 265px;
+	height: 370px;
+	position: absolute;
+	top: 30%;
+	left: 70%;
+}
+
+    /* width: 265px;
+    height: 370px;
+    /* height: 190px; */
+    /* position: absolute; */
+    /* top: 30%; */
+    /* left: 70%; */
