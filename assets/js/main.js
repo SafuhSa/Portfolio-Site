@@ -39,7 +39,7 @@
 
 	// Scrolly.
 		$('.scrolly-middle').scrolly({
-			speed: 1000,
+			speed: 2500,
 			anchor: 'middle'
 		});
 
