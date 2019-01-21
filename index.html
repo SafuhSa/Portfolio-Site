@@ -119,12 +119,12 @@
 					<h2>CONTACT me</h2>
 					<p>Email: <a href="mailto:Safuh.saray@outlook.com">Safuh.saray@outlook.com</a></p>
 				</header>
-				<form method="post" action="mailto:Safuh.saray@outlook.com" enctype="text/plain">
+				<form method="post" name="myemailform" action="form-to-email.php">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
 						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
 						<div class="col-12">
-							<textarea name="message" placeholder="Message"></textarea>
+							<textarea name="message" placeholder="message"></textarea>
 						</div>
 						<div class="col-12">
 							<ul class="actions">
@@ -301,6 +301,14 @@
 		</section>
 
 		<!-- Scripts -->
+		<script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+<script language="JavaScript">
+	var frmvalidator = new Validator("myemailform");
+	frmvalidator.addValidation("name", "req", "Please provide your name");
+	frmvalidator.addValidation("email", "req", "Please provide your email");
+	frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+</script>
+			
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
