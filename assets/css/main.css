@@ -2632,8 +2632,16 @@ input, select, textarea {
 
 	}
 
-
 #rad {
 	height: 200px;
 	border-radius: 30px;
+}
+
+.thankyou_message {
+		background-color:#1f8dd6;
+    font-size: large;
+    margin-bottom: 20px;
+		color: white;
+		padding: 5px;
+    border-radius: 10px;
 }

@@ -76,7 +76,7 @@
 						<h2>Sinuous </h2>
 						<h3>Pure Javascript & HTML5 Game</h3>
 					</header>
-					<p> utilized HTML5 Canvas for pixel control, creating a detailed gameplay environment. Leverages object-oriented design, using inheritance to achieve DRY code <br> <a href="">Github</a> | <a href="">Live
+					<p>HTML5 Canvas for pixel control, creating a detailed gameplay environment. Leverages object-oriented design, using inheritance to achieve DRY code <br> <a href="">Github</a> | <a href="">Live
 						</a></p>
 				</div>
 			</article>
@@ -85,8 +85,8 @@
 			<article id="skills" class="container box style2">
 				<header>
 					<h2>TOOLS OF THE TRADE</h2>
-					<p>Justo phasellus et aenean dignissim<br />
-					placerat cubilia purus lectus.</p>
+					<p>Filled with technological knowhow<br />
+					and endless curiosity.</p>
 				</header>
 				<div class="inner gallery">
 					<div class="row gtr-0">
@@ -117,9 +117,13 @@
 			<article id='contactMe' class="container box style3">
 				<header>
 					<h2>CONTACT me</h2>
-					<p>Email: <a href="mailto:Safuh.saray@outlook.com">Safuh.saray@outlook.com</a></p>
+					<p>Email: <a href="mailto:Safuh.saray@outlook.com">Safuh.saray@outlook.com</a>
+					Phone: <a href="tel:19255658966">925-565-8966</a></p>
 				</header>
-				<form method="post" name="myemailform" action="form-to-email.php">
+				<form method="post" class="gform" name="myemailform" action="https://script.google.com/macros/s/AKfycbyMXyjiOFPyk_qi1jeUbyFXFYZBeRzYPEUxYYtn/exec">
+					<div style="display:none" class="thankyou_message">
+						<h4>Thank you for contacting Me! I will get back to you soon! </h4>
+					</div>
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
 						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
@@ -134,8 +138,8 @@
 					</div>
 				</form>
 			</article>
-
-		<!-- Generic -->
+			
+			<!-- Generic -->
 		<!--
 			<article class="container box style3">
 				<header>
@@ -283,15 +287,17 @@
 				</section>
 			</article>
 		-->
-
+<!-- https://script.google.com/macros/s/AKfycbyMXyjiOFPyk_qi1jeUbyFXFYZBeRzYPEUxYYtn/exec -->
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+				<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+				<!-- <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li> -->
+				<!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li> -->
+
+
+				<li><a href="https://github.com/SafuhSa" class="icon fa-github"  ><span class="label">Github</span></a></li>
+				<li><a href="https://www.linkedin.com/in/safuh-alsarayj/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
@@ -301,14 +307,6 @@
 		</section>
 
 		<!-- Scripts -->
-		<script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
-<script language="JavaScript">
-	var frmvalidator = new Validator("myemailform");
-	frmvalidator.addValidation("name", "req", "Please provide your name");
-	frmvalidator.addValidation("email", "req", "Please provide your email");
-	frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
-</script>
-			
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -317,5 +315,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			
+		<script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+<script language="JavaScript">
+	var frmvalidator = new Validator("myemailform");
+	frmvalidator.addValidation("name", "req", "Please provide your name");
+	frmvalidator.addValidation("email", "req", "Please provide your email");
+	frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+</script>
+
+
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
+			
 	</body>
 </html>
