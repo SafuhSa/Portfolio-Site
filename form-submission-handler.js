@@ -112,6 +112,7 @@
       forms[i].addEventListener("submit", handleFormSubmit, false);
     }
   };
+  
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
