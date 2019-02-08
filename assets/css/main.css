@@ -2656,7 +2656,8 @@ input, select, textarea {
 
 	.personal-img-container {
 		overflow: hidden;
-    width: 360px;
+		/* width: 360px; */
+		    width: 18em;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -2666,8 +2667,9 @@ input, select, textarea {
 	.personal-img {
 	/* clip: rect(15px, 180px, 180px, 0); */
 	/* height: 181px; */
-	height: 260px;
-	padding-right: 8px;
+	/* height: 260px; */
+	height: 13em;
+	padding-right: 0.4em;
 	/* border-radius: 10%; */
 }
     /* width: 265px;
