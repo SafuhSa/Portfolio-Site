@@ -2660,7 +2660,8 @@ input, select, textarea {
     display: flex;
     justify-content: center;
     margin: auto;
-    border-radius: 9px;
+		border-radius: 9px;
+		margin-bottom: 15px;
 	}
 	.personal-img {
 	/* clip: rect(15px, 180px, 180px, 0); */
