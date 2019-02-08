@@ -2645,16 +2645,30 @@ input, select, textarea {
 		padding: 5px;
     border-radius: 10px;
 }
-.personal-img {
-	/* clip: rect(15px, 180px, 180px, 0); */
-	border-radius: 10px;
+/* .personal-img {
+	/* border-radius: 10px;
 	width: 265px;
 	height: 370px;
 	position: absolute;
 	top: 30%;
-	left: 70%;
-}
+	left: 70%; */
+	/* } */
 
+	.personal-img-container {
+		overflow: hidden;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 9px;
+	}
+	.personal-img {
+	/* clip: rect(15px, 180px, 180px, 0); */
+	/* height: 181px; */
+	height: 260px;
+	padding-right: 8px;
+	/* border-radius: 10%; */
+}
     /* width: 265px;
     height: 370px;
     /* height: 190px; */
